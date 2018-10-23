@@ -1,6 +1,7 @@
 FROM centos:latest
 
 RUN RELEASE="release-1.12.1" && \
+RELEASE="$(curl -sSL https://dl.k8s.io/release/stable.txt)" && \
 curl -L --remote-name-all https://storage.googleapis.com/kubernetes-release/release/${RELEASE}/bin/linux/amd64/{kubeadm,kubelet,kubectl}
 
 CMD ["/usr/bin/bash"]
