@@ -1,0 +1,2 @@
+FROM alpine
+RUN  wget http://cdimage.ubuntu.com/releases/18.04.4/release/ubuntu-18.04.4-preinstalled-server-arm64+raspi3.img.xz
