@@ -1,0 +1,2 @@
+FROM alpine
+RUN  wget https://dl.fedoraproject.org/pub/alt/iot/31/IoT/aarch64/iso/Fedora-IoT-ostree-aarch64-31-20191230.0.iso

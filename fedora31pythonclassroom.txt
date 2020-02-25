@@ -1,0 +1,2 @@
+FROM alpine
+RUN  wget https://linux2.yz.yamagata-u.ac.jp/pub/linux/fedora-projects/alt/releases/31/Labs/armhfp/images/Fedora-Python-Classroom-armhfp-31-1.9-sda.raw.xz
