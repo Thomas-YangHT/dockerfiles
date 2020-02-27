@@ -1,7 +1,7 @@
 FROM alpine
-RUN wget  -r -c -t 10 https://en.wikipedia.org/wiki/Linux_startup_process 
-RUN wget  -c -t 20 wget -c -t 20 https://github.com/geeeeeeeeek/electronic-wechat/releases/download/V2.0/linux-x64.tar.gz -O wechat.tar.gz 
-RUN wget  -c -t 20 http://surviving2023.com/linux/linux-image-5.3.0-rc3-v8-gea837612b_5.3.0-rc3-v8-gea837612b-1_arm64.deb 
-RUN wget  -c -t 20 http://surviving2023.com/linux/linux-headers-5.3.0-rc3-v8-gea837612b_5.3.0-rc3-v8-gea837612b-1_arm64.deb 
-RUN wget  -c -t 20 https://github.com/dhruvvyas90/qemu-rpi-kernel/raw/master/kernel-qemu-4.4.34-jessie
+RUN wget  -c  https://en.wikipedia.org/wiki/Linux_startup_process || true
+RUN wget  -c  https://github.com/geeeeeeeeek/electronic-wechat/releases/download/V2.0/linux-x64.tar.gz -O wechat.tar.gz || true
+RUN wget  -c  http://surviving2023.com/linux/linux-image-5.3.0-rc3-v8-gea837612b_5.3.0-rc3-v8-gea837612b-1_arm64.deb || true
+RUN wget  -c  http://surviving2023.com/linux/linux-headers-5.3.0-rc3-v8-gea837612b_5.3.0-rc3-v8-gea837612b-1_arm64.deb || true
+RUN wget  -c  https://github.com/dhruvvyas90/qemu-rpi-kernel/raw/master/kernel-qemu-4.4.34-jessie || true
 
