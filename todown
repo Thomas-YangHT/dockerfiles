@@ -1,4 +1,4 @@
 FROM ubuntu:18.04
-RUN wget -r -c -t 20 https://en.wikipedia.org/wiki/Linux_startup_process 
+RUN apt install wget && wget -r -c -t 20 https://en.wikipedia.org/wiki/Linux_startup_process 
 RUN wget -c -t 20 http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.4-server-arm64.iso
 
