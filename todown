@@ -1,2 +1,2 @@
-FROM candidate-registry.fedoraproject.org/f31/python-classroom
+FROM alpine
 RUN wget -c -t 20 https://download.fedoraproject.org/pub/alt/releases/31/Labs/x86_64/images/Fedora-Python-Classroom-Vagrant-31-1.9.x86_64.vagrant-libvirt.box
