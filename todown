@@ -1,5 +1,2 @@
-FROM ubuntu:18.04
-RUN apt update && apt install -y wget && wget -r -c -t 20 https://en.wikipedia.org/wiki/Linux_startup_process && \
-apt clean && \
-wget -c -t 20 http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.4-server-arm64.iso
-
+FROM candidate-registry.fedoraproject.org/f31/python-classroom
+RUN wget -c -t 20 https://download.fedoraproject.org/pub/alt/releases/31/Labs/x86_64/images/Fedora-Python-Classroom-Vagrant-31-1.9.x86_64.vagrant-libvirt.box
