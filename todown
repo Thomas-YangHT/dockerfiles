@@ -1,2 +1,2 @@
 FROM alpine
-RUN wget -c -t 20 https://download.fedoraproject.org/pub/alt/releases/31/Labs/x86_64/images/Fedora-Python-Classroom-Vagrant-31-1.9.x86_64.vagrant-libvirt.box
+RUN wget -c -t 20 https://releases.hashicorp.com/vagrant/2.2.7/vagrant_2.2.7_x86_64.rpm
