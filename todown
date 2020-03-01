@@ -1,4 +1,4 @@
 FROM alpine
 RUN     wget -c http://database.clamav.net/bytecode.cvd && \
     wget -c  http://database.clamav.net/main.cvd && \
-    wget -c  http://database.clamav.net/daily.cvd && \
+    wget -c  http://database.clamav.net/daily.cvd 
