@@ -1,4 +1,2 @@
 FROM alpine
-RUN     wget -c http://database.clamav.net/bytecode.cvd && \
-    wget -c  http://database.clamav.net/main.cvd && \
-    wget -c  http://database.clamav.net/daily.cvd 
+RUN     wget -c http://cdimage.ubuntu.com/ubuntu-core/18/stable/current/ubuntu-core-18-amd64.img.xz
