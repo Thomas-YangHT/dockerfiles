@@ -1,2 +1,2 @@
 FROM alpine
-RUN     wget -c http://mirror.eu-lo.kamatera.com/ubuntu-releases/18.04.4/ubuntu-18.04.4-live-server-amd64.iso
+RUN     wget -c https://github.com/goharbor/harbor/releases/download/v1.10.1/harbor-offline-installer-v1.10.1.tgz
