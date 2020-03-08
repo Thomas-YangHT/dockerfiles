@@ -1,2 +1,2 @@
 FROM alpine
-RUN     wget -c https://github.com/goharbor/harbor/releases/download/v1.10.1/harbor-offline-installer-v1.10.1.tgz
+RUN     wget -c https://atom-installer.github.com/v1.44.0/atom.x86_64.rpm
