@@ -1,2 +1,2 @@
 FROM alpine
-RUN     wget -c https://atom-installer.github.com/v1.44.0/atom.x86_64.rpm
+RUN     wget -c https://iterm2.com/downloads/stable/iTerm2-3_3_9.zip
