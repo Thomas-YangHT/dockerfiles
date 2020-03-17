@@ -1,2 +1,4 @@
 FROM alpine
-RUN     wget -c https://iterm2.com/downloads/stable/iTerm2-3_3_9.zip
+RUN     wget -c  https://database.clamav.net/daily.cvd && \
+  https://database.clamav.net/main.cvd && \
+  https://database.clamav.net/bytecode.cvd
