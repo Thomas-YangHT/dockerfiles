@@ -1,2 +1,2 @@
 FROM alpine
-RUN     wget -c https://atom.io/download/deb -O atom.deb 
+RUN     wget -c https://dbeaver.io/files/7.0.0/dbeaver-ce_7.0.0_amd64.deb
