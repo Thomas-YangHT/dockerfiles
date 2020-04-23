@@ -1,2 +1,4 @@
 FROM alpine
-RUN     wget -c https://dbeaver.io/files/7.0.0/dbeaver-ce_7.0.0_amd64.deb
+RUN     wget -c     ftp://download2.boulder.ibm.com/ecc/sar/CMA/XSA/06fla/1/ibm_fw_sraidmr_m5000-12.15.0-0248_windows_32-64.exe && \
+wget -c    ftp://download2.boulder.ibm.com/ecc/sar/CMA/XSA/08lxf/2/ibm_utl_msm_17.05.02.01_windows_32-64.exe && \
+wget -c    https://download.lenovo.com/servers/mig/2018/03/12/18374/lsi-lnvgy_utl_sraidmr_storcli-7.0409.0000.0000_windows_x86-64.zip
