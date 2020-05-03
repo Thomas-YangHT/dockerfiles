@@ -1,2 +1,5 @@
 FROM alpine
-RUN     wget -c https://dbeaver.io/files/7.0.0/dbeaver-ce_7.0.0_amd64.deb
+RUN     wget -c https://dbeaver.io/files/7.0.0/dbeaver-ce_7.0.0_amd64.deb && \
+wget -c https://builds.coreos.fedoraproject.org/prod/streams/stable/builds/31.20200407.3.0/x86_64/fedora-coreos-31.20200407.3.0-metal4k.x86_64.raw.xz && \
+wget -c https://stable.release.flatcar-linux.net/amd64-usr/current/flatcar-container.tar.gz && \
+wget -c https://builds.coreos.fedoraproject.org/prod/streams/stable/builds/31.20200407.3.0/x86_64/fedora-coreos-31.20200407.3.0-qemu.x86_64.qcow2.xz
