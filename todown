@@ -1,2 +1,2 @@
 FROM alpine
-RUN     wget -c http://cdimage.ubuntu.com/releases/20.04/release/ubuntu-20.04-preinstalled-server-arm64+raspi.img.xz
+RUN     wget -c https://dl.fedoraproject.org/pub/alt/iot/32/IoT/aarch64/images/Fedora-IoT-32-20200429.0.aarch64.raw.xz
