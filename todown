@@ -1,2 +1,4 @@
 FROM alpine
-RUN     wget -c https://dl.fedoraproject.org/pub/alt/iot/32/IoT/aarch64/images/Fedora-IoT-32-20200429.0.aarch64.raw.xz
+RUN     wget -c https://jaist.dl.sourceforge.net/project/archlinux-pi4/archlinuxARM-pi4.zip && \
+wget -c https://jaist.dl.sourceforge.net/project/exgent-rpi4/exgent-rpi4-64bit-lxde-200410.raw.xz && \
+wget -c https://jaist.dl.sourceforge.net/project/rasparch/rasparch-rpi4-exton-1240mb-200304.zip
