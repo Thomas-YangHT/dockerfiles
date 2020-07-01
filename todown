@@ -1,2 +1,5 @@
 FROM alpine
-RUN     wget -c http://free.nchc.org.tw/drbl-live/oldstable/2.3.1-6/drbl-live-xfce-2.3.1-6-amd64.iso
+RUN     wget -c http://free.nchc.org.tw/drbl-live/oldstable/2.3.1-6/drbl-live-xfce-2.3.1-6-amd64.iso && \
+wget -c http://free.nchc.org.tw/drbl-live/testing/2.6.2-1/drbl-live-xfce-2.6.2-1-amd64.iso && \
+wget -c http://free.nchc.org.tw/drbl-live/stable/drbl-live-xfce-2.5.1-16-amd64.zip && \
+wget -c https://astuteinternet.dl.sourceforge.net/project/clonezilla/clonezilla_live_stable/2.6.0-37/clonezilla-live-2.6.0-37-amd64.iso
