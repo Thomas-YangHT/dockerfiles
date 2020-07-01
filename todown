@@ -1,4 +1,2 @@
 FROM alpine
-RUN     wget -c https://jaist.dl.sourceforge.net/project/archlinux-pi4/archlinuxARM-pi4.zip && \
-wget -c https://jaist.dl.sourceforge.net/project/exgent-rpi4/exgent-rpi4-64bit-lxde-200410.raw.xz && \
-wget -c https://jaist.dl.sourceforge.net/project/rasparch/rasparch-rpi4-exton-1240mb-200304.zip
+RUN     wget -c http://free.nchc.org.tw/drbl-live/oldstable/2.3.1-6/drbl-live-xfce-2.3.1-6-amd64.iso
